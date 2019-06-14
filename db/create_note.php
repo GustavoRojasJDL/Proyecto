@@ -12,14 +12,13 @@ if(empty($_POST)){
   $min = $time["minutes"];
   $sec = $time["seconds"];
   $date = $year."-".$month."-".$day." ".$hour.":".$min.":".$sec;
-  echo $date;
   $tl = $_POST["title"];
   $dc = $_POST["desc"];
 
   $sql = "INSERT INTO `notes` (`title`, `description`, `date`, `active`) VALUES ('$tl', '$dc', '$date', '1')";
   $result = $conn->query($sql);
 
-  header('Location: '."./");
+  header('Location: '."../");
 }
 ?>
 <!DOCTYPE html>
@@ -34,11 +33,12 @@ if(empty($_POST)){
 <body>
   <form action="" method="post">
     <div class="form_note">
-      <input type="text" name="title">
-      <textarea name="desc" cols="30" rows="10"></textarea>
+      Titulo: <input type="text" name="title">
+      Descripcion: <textarea name="desc" cols="30" rows="10"></textarea>
     </div>
     <div class="form_btn">
       <button type="submit">Guardar</button>
+      <a href="../">Regresar</a>
     </div>
   </form>
 </body>

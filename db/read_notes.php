@@ -1,7 +1,16 @@
 <?php
 require_once("db.php");
+$time = getdate();
+$day = $time["mday"];
+$month = $time["mon"];
+$year = $time["year"];
+$hour = $time["hours"];
+$hour = $hour - 5;
+$min = $time["minutes"];
+$sec = $time["seconds"];
+$date = $year."-".$month."-".$day." ".$hour.":".$min.":".$sec;
 
-$sql = "SELECT * FROM `notes` WHERE `active` = 1";
+$sql = "SELECT * FROM `notes` WHERE `active` = 1 AND `date` <= '$date' ORDER BY date DESC";
 $result = $conn->query($sql);
 $cnt = $result->num_rows;
 
