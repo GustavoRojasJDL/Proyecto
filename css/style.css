@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+div{
+    border-radius: 15px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+    width: 70%;
+}
+
+.btnCerrar{
+    text-align: right;
+    border-width: 0px;
+    margin: 5px 5px 5px 5px;
+}
+
+input[type="button"] {
+    border: none;
+    background-color: transparent;
+ }
+
+.container2{
+    margin-top: 10px;
+    border-color: blue;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 25px;
+    padding: 5px 5px 5px 5px;
+}
+
+.contenido{
+    font-size: 18px;
+    padding: 10px 5px 10px 5px;
+    text-align: justify;
+}
+
+.fecha{
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    text-align: right;
+}
