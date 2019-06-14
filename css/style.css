@@ -53,10 +53,10 @@ input[type="button"] {
 
 .add {
   font-size: 4rem;
-  color: darkgray;
+  color: rgb(15, 170, 197);
 }
 .add:hover{
-  color: dimgray
+  color: rgb(11, 126, 146);
 }
 .container_add{
   text-align: center;
