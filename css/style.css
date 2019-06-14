@@ -56,7 +56,7 @@ input[type="button"] {
   color: darkgray;
 }
 .add:hover{
-  color: dimgray
+  color: dimgray;
 }
 .container_add{
   text-align: center;
