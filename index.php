@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <button class="add" type="submit"><i class="fas fa-plus-circle"></i></button>
+  <input type="button" value=""><i class="fas fa-plus-circle">
   <h1>Esto no es un sitio de posts</h1>
   <div class="container"><?php require_once("./db/read_notes.php"); ?></div>
 </body>
