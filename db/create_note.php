@@ -34,8 +34,8 @@ if(empty($_POST)){
 <body>
   <form action="" method="post">
     <div class="form_note">
-      <input type="text" name="title">
-      <textarea name="desc" cols="30" rows="10"></textarea>
+      Titulo: <input type="text" name="title">
+      Descripcion: <textarea name="desc" cols="30" rows="10"></textarea>
     </div>
     <div class="form_btn">
       <button type="submit">Guardar</button>
