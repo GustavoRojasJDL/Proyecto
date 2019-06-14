@@ -61,3 +61,7 @@ input[type="button"] {
 .container_add{
   text-align: center;
 }
+.form_note{
+  display: flex;
+  flex-direction: column;
+}
