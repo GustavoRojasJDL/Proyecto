@@ -65,3 +65,10 @@ input[type="button"] {
   display: flex;
   flex-direction: column;
 }
+.frm{
+  display: none;
+  height: 10rem;
+  width: 40rem;
+  border: red solid 1px;
+  background-color: #5f9ea0;
+}
