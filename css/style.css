@@ -15,15 +15,15 @@ div {
   width: 70%;
 }
 
-.btnCerrar {
-  text-align: right;
-  border-width: 0px;
-  margin: 5px 5px 5px 5px;
-}
-
 input[type="button"] {
   border: none;
   background-color: transparent;
+}
+
+.btnCerrar, .btnEditar {
+  text-align: right;
+  border-width: 0px;
+  margin: 5px 5px 5px 5px;
 }
 
 .container2 {
@@ -55,16 +55,20 @@ input[type="button"] {
   font-size: 4rem;
   color: rgb(15, 170, 197);
 }
+
 .add:hover{
   color: rgb(11, 126, 146);
 }
+
 .container_add{
   text-align: center;
 }
+
 .form_note{
   display: flex;
   flex-direction: column;
 }
+
 .frm{
   display: none;
   height: 10rem;
