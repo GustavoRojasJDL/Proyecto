@@ -20,7 +20,6 @@
     <div class="container">
       <?php require_once("./db/read_notes.php"); ?>
     </div>
-    <div class="frm"></div>
   </div>
 </body>
 
