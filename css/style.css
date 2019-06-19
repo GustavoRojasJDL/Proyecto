@@ -1,5 +1,19 @@
 h1 {
   text-align: center;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #889ccf; 
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 2px solid #5878ca;
+  width: 70%;
 }
 
 div {
@@ -9,9 +23,9 @@ div {
 .container {
   margin-left: auto;
   margin-right: auto;
-  border-color: blue;
-  border-style: solid;
-  border-width: 1px;
+  /* border-color: orange;
+  border-style: dotted;
+  border-width: 1px; */
   width: 70%;
 }
 
@@ -28,9 +42,14 @@ input[type="button"] {
 
 .container2 {
   margin-top: 10px;
-  border-color: blue;
-  border-style: solid;
+  border-color: orange;
+  background-color: rgba(216, 130, 0, 0.9);
+  border-style: dotted;
   border-width: 1px;
+}
+
+.container2:hover{
+  background-color: rgba(255, 102, 0, 0.6);
 }
 
 .titulo {
@@ -53,10 +72,10 @@ input[type="button"] {
 
 .add {
   font-size: 4rem;
-  color: rgb(15, 170, 197);
+  color: rgb(236, 110, 26);
 }
 .add:hover{
-  color: rgb(11, 126, 146);
+  color: rgb(138, 58, 5);
 }
 .container_add{
   text-align: center;
@@ -64,4 +83,21 @@ input[type="button"] {
 .form_note{
   display: flex;
   flex-direction: column;
+}
+
+.caja{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background-color: rgba(236, 110, 26, 0.8);
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 35px 0px 35px 0px; 
+  -moz-border-radius: 35px 0px 35px 0px; 
+  -webkit-border-radius: 35px 0px 35px 0px; 
+  border: 1px solid black;
+  margin-left: 135px;
 }
