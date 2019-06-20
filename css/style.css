@@ -1,18 +1,4 @@
 h1 {
-  text-align: center;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  color: #ffffff; 
-  font-size: 18px; 
-  font-weight: 400; 
-  text-align: center; 
-  background: #889ccf; 
-  margin: 0 0 25px; 
-  overflow: hidden; 
-  padding: 20px; 
-  border-radius: 35px 0px 35px 0px; 
-  -moz-border-radius: 35px 0px 35px 0px; 
-  -webkit-border-radius: 35px 0px 35px 0px; 
-  border: 2px solid #5878ca;
   width: 70%;
 }
 
@@ -88,9 +74,9 @@ input[type="button"] {
   flex-direction: column;
 }
 
+
 .caja{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  color: #ffffff; 
+  color: #000; 
   font-size: 18px; 
   font-weight: 400; 
   text-align: center; 
@@ -102,5 +88,6 @@ input[type="button"] {
   -moz-border-radius: 35px 0px 35px 0px; 
   -webkit-border-radius: 35px 0px 35px 0px; 
   border: 1px solid black;
-  margin-left: 135px;
+  margin-left: auto;
+  margin-right: auto;
 }
