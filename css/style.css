@@ -1,18 +1,22 @@
+*{
+  font-family: 'Merriweather', serif;
+}
+
 h1 {
-  text-align: center;
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   color: #ffffff; 
   font-size: 18px; 
-  font-weight: 400; 
+  font-weight: 400;  
   text-align: center; 
-  background: #889ccf; 
+  background-color: rgba(236, 110, 26, 0.8);
   margin: 0 0 25px; 
   overflow: hidden; 
   padding: 20px; 
   border-radius: 35px 0px 35px 0px; 
   -moz-border-radius: 35px 0px 35px 0px; 
   -webkit-border-radius: 35px 0px 35px 0px; 
-  border: 2px solid #5878ca;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
 }
 
@@ -43,13 +47,14 @@ input[type="button"] {
 .container2 {
   margin-top: 10px;
   border-color: orange;
-  background-color: rgba(216, 130, 0, 0.9);
+  background-color: rgba(255, 102, 0, 0.6);
   border-style: dotted;
   border-width: 1px;
 }
 
 .container2:hover{
-  background-color: rgba(255, 102, 0, 0.6);
+  
+  background-color: rgba(216, 130, 0, 0.9);
 }
 
 .titulo {
@@ -89,10 +94,9 @@ input[type="button"] {
 }
 
 .caja{
-  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-  color: #ffffff; 
-  font-size: 18px; 
-  font-weight: 400; 
+  color: #000000; 
+  font-size: 24px; 
+  font-weight: 400;  
   text-align: center; 
   background-color: rgba(236, 110, 26, 0.8);
   margin: 0 0 25px; 
@@ -102,5 +106,6 @@ input[type="button"] {
   -moz-border-radius: 35px 0px 35px 0px; 
   -webkit-border-radius: 35px 0px 35px 0px; 
   border: 1px solid black;
-  margin-left: 135px;
+  margin-left: auto;
+  margin-right: auto;
 }
