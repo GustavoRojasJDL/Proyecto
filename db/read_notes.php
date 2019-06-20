@@ -19,13 +19,13 @@ if($cnt > 0){
     ?>
       <div class="container2">
         <div class="btnCerrar">
-          <a href="./db/delete_note.php?id=<?php echo $row["id"];?>">X</a>
+          <a href="./db/delete_note.php?id=<?php echo $row["id"];?>" style="color:black;"><i class="material-icons">highlight_off</i></a>
         </div>
         <div class="titulo"><?php echo $row["title"]; ?></div>
         <div class="contenido"><?php echo $row["description"]; ?></div>
         <div class="fecha"><?php echo $row["date"]; ?></div>
         <div class="btnEditar">
-          <a href="./db/update_note.php?id=<?php echo $row["id"];?>">Editar</a>
+          <a href="./db/update_note.php?id=<?php echo $row["id"];?>" style="color:black;"><i class="material-icons">border_color</i></a>
         </div>
       </div>
     <?php

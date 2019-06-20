@@ -13,17 +13,25 @@ if(empty($_POST)){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
         <title>Document</title>
       </head>
-      <body>
+      <body background="/Proyecto/images/galaxy.jpg"
+            style="background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
         <form action="" method="post">
           <div class="form_note">
-            Titulo: <input type="text" name="title" value="<?php echo $row["title"]; ?>">
-            Descripcion: <textarea name="desc" cols="30" rows="10"><?php echo $row["description"]; ?></textarea>
+            <div class="titulo">
+            Título:
+            </div>
+             <input type="text" name="title" value="<?php echo $row["title"]; ?>">
+             <div class="titulo">
+             Descripción:
+             </div>
+             <textarea name="desc" cols="30" rows="10"><?php echo $row["description"]; ?></textarea>
           </div>
           <div class="form_btn">
             <button type="submit">Guardar</button>
-            <a href="../">Regresar</a>
+            <a href="../" style="color: orange;">Regresar</a>
           </div>
         </form>
       </body>

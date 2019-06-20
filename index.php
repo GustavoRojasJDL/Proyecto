@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body background="/Proyecto/images/galaxy.jpg"
@@ -22,8 +23,8 @@
   <script type="text/javascript">
     window.onload = function () {
       document.onmousemove = function (ev) {
-        var x = -ev.clientX / 10;
-        var y = -ev.clientY / 10;
+        var x = -ev.clientX / 30;
+        var y = -ev.clientY / 30;
         document.body.style.backgroundPosition = x + 'px ' + y + 'px';
       };
     };

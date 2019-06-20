@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 <?php
 if(empty($_POST)){
   
@@ -30,16 +31,29 @@ if(empty($_POST)){
   <link rel="stylesheet" href="../css/style.css">
   <title>Document</title>
 </head>
-<body>
+<body background="/Proyecto/images/galaxy.jpg"
+  style="background-repeat: no-repeat; background-position: center; background-attachment: scroll;">
   <form action="" method="post">
     <div class="form_note">
-      Titulo: <input type="text" name="title">
-      Descripcion: <textarea name="desc" cols="30" rows="10"></textarea>
+      <div class="titulo">
+      Título:</div> <input type="text" name="title">
+      
+      <div class="titulo">
+      Descripción:</div> <textarea name="desc" cols="30" rows="10"></textarea>
     </div>
     <div class="form_btn">
       <button type="submit">Guardar</button>
-      <a href="../">Regresar</a>
+      <a href="../" style="color:orange;">Regresar</a>
     </div>
   </form>
+  <script type="text/javascript">
+    window.onload = function () {
+      document.onmousemove = function (ev) {
+        var x = -ev.clientX / 30;
+        var y = -ev.clientY / 30;
+        document.body.style.backgroundPosition = x + 'px ' + y + 'px';
+      };
+    };
+  </script>
 </body>
 </html>
