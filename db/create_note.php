@@ -29,6 +29,7 @@ if(empty($_POST)){
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Document</title>
 </head>
 <body background="/Proyecto/images/galaxy.jpg"
@@ -36,14 +37,18 @@ if(empty($_POST)){
   <form action="" method="post">
     <div class="form_note">
       <div class="titulo">
-      Título:</div> <input type="text" name="title">
+      Título:</div> <input type="text" name="title" required>
       
       <div class="titulo">
       Descripción:</div> <textarea name="desc" cols="30" rows="10"></textarea>
     </div>
     <div class="form_btn">
-      <button type="submit">Guardar</button>
-      <a href="../" style="color:orange;">Regresar</a>
+      <button type="submit"><i class="material-icons">
+save
+</i></button>
+      <a href="../" style="color:orange;"><i class="material-icons">
+keyboard_backspace
+</i></a>
     </div>
   </form>
   <script type="text/javascript">

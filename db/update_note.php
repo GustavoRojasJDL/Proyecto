@@ -14,6 +14,7 @@ if(empty($_POST)){
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="../css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Document</title>
       </head>
       <body background="/Proyecto/images/galaxy.jpg"
@@ -30,10 +31,23 @@ if(empty($_POST)){
              <textarea name="desc" cols="30" rows="10"><?php echo $row["description"]; ?></textarea>
           </div>
           <div class="form_btn">
-            <button type="submit">Guardar</button>
-            <a href="../" style="color: orange;">Regresar</a>
+            <button type="submit"><i class="material-icons">
+save
+</i></button>
+            <a href="../" style="color: orange;"><i class="material-icons">
+keyboard_backspace
+</i></a>
           </div>
         </form>
+                        <script type="text/javascript">
+                    window.onload = function () {
+                      document.onmousemove = function (ev) {
+                        var x = -ev.clientX / 30;
+                        var y = -ev.clientY / 30;
+                        document.body.style.backgroundPosition = x + 'px ' + y + 'px';
+                      };
+                    };
+                  </script>
       </body>
       </html>
     <?php
