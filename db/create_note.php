@@ -24,6 +24,7 @@ if(empty($_POST)){
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,23 +33,24 @@ if(empty($_POST)){
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Document</title>
 </head>
+
 <body background="/Proyecto/images/galaxy.jpg"
   style="background-repeat: no-repeat; background-position: center; background-attachment: scroll;">
   <form action="" method="post">
     <div class="form_note">
       <div class="titulo">
-      Título:</div> <input type="text" name="title" required>
-      
+        Título:</div> <input type="text" name="title" required>
+
       <div class="titulo">
-      Descripción:</div> <textarea name="desc" cols="30" rows="10"></textarea>
+        Descripción:</div> <textarea name="desc" cols="30" rows="10"></textarea>
     </div>
     <div class="form_btn">
       <button type="submit"><i class="material-icons">
-save
-</i></button>
+          save
+        </i></button>
       <a href="../" style="color:orange;"><i class="material-icons">
-keyboard_backspace
-</i></a>
+          keyboard_backspace
+        </i></a>
     </div>
   </form>
   <script type="text/javascript">
@@ -61,4 +63,5 @@ keyboard_backspace
     };
   </script>
 </body>
+
 </html>
