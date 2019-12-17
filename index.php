@@ -50,8 +50,10 @@
       </tr>
       <tr>
         <td>8-10</td>
-        <td align="center" colspan="3">Mate</td>
-        <td>Compu</td>
+        <td>Mate</td>
+        <td></td>
+        <td>Mate</td>
+        <td>Mate</td>
         <td>Mate</td>
       </tr>
       <tr>
@@ -67,8 +69,8 @@
         <td>Física</td>
         <td>Ingl&eacute;s</td>
         <td>F&iacute;sica</td>
-        <td align="center" rowspan="2">Inglés<br>y<br>Computaci&oacute;n</td>
-        <td>F&iacute;sica</td>
+        <td>Inglés y Computaci&oacute;n</td>
+        <td>Inglés y Computaci&oacute;n</td>
       </tr>
       <tr>
         <td>15-17</td>
@@ -76,12 +78,10 @@
         <td>Karate</td>
         <td>Karate</td>
         <td>Karate</td>
+        <td>F&iacute;sica</td>
       </tr>
     </table>
   </body>
-
-  table>td
   </html>
 </body>
-
 </html>
