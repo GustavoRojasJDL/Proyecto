@@ -13,13 +13,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body
+<body background="images/galaxy.jpg"
   style="background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
-  <!-- <div class="container_add">
+  <div class="container_add">
     <a class="add" href="db/create_note.php"><i class="fas fa-plus-circle"></i></a>
   </div>
   <h1 class="caja">Esto no es un sitio de posts</h1>
-  <div class="container"><?php /* require_once("./db/read_notes.php"); */ ?></div>
+  <div class="container"><?php require_once("./db/read_notes.php"); ?></div>
   <script type="text/javascript">
     window.onload = function () {
       document.onmousemove = function (ev) {
@@ -28,8 +28,8 @@
         document.body.style.backgroundPosition = x + 'px ' + y + 'px';
       };
     };
-  </script> -->
-  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+  </script>
+  <!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
   <html>
 
   <head>
@@ -82,6 +82,6 @@
       </tr>
     </table>
   </body>
-  </html>
+  </html> -->
 </body>
 </html>
