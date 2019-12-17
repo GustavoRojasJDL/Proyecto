@@ -16,6 +16,7 @@ if(empty($_POST)){
   $tl = $_POST["title"];
   $dc = $_POST["desc"];
 
+
   $sql = "INSERT INTO `notes` (`title`, `description`, `date`, `active`) VALUES ('$tl', '$dc', '$date', '1')";
   $result = $conn->query($sql);
 
