@@ -13,13 +13,13 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<body background="/Proyecto/images/galaxy.jpg"
+<body
   style="background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
-  <div class="container_add">
+  <!-- <div class="container_add">
     <a class="add" href="db/create_note.php"><i class="fas fa-plus-circle"></i></a>
   </div>
   <h1 class="caja">Esto no es un sitio de posts</h1>
-  <div class="container"><?php require_once("./db/read_notes.php"); ?></div>
+  <div class="container"><?php //require_once("./db/read_notes.php"); ?></div>
   <script type="text/javascript">
     window.onload = function () {
       document.onmousemove = function (ev) {
@@ -28,7 +28,60 @@
         document.body.style.backgroundPosition = x + 'px ' + y + 'px';
       };
     };
-  </script>
-</body>
+  </script> -->
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+  <html>
 
+  <head>
+    <title>Horario Escolar Extendido</title>
+  </head>
+
+  <body>
+    <h1 align="center">Horario escolar</h1>
+
+    <table align="center" border="4" bordercolor="purple" cellpadding="10" cellspacing="20">
+      <tr>
+        <th bgcolor="yellow">Hora</th>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Mi&eacute;rcoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+      </tr>
+      <tr>
+        <td>8-10</td>
+        <td>Mate</td>
+        <td></td>
+        <td>Mate</td>
+        <td>Mate</td>
+        <td>Mate</td>
+      </tr>
+      <tr>
+        <td>10-12</td>
+        <td>Geograf&iacute;a</td>
+        <td>Historia</td>
+        <td>Geografía</td>
+        <td>Historia</td>
+        <td>Geograf&iacute;a</td>
+      </tr>
+      <tr>
+        <td>12-14</td>
+        <td>Física</td>
+        <td>Ingl&eacute;s</td>
+        <td>F&iacute;sica</td>
+        <td>Inglés y Computaci&oacute;n</td>
+        <td>Inglés y Computaci&oacute;n</td>
+      </tr>
+      <tr>
+        <td>15-17</td>
+        <td>Anatom&iacute;a</td>
+        <td>Karate</td>
+        <td>Karate</td>
+        <td>Karate</td>
+        <td>F&iacute;sica</td>
+      </tr>
+    </table>
+  </body>
+  </html>
+</body>
 </html>
